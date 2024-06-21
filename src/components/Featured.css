@@ -1,0 +1,62 @@
+.element1 {
+    max-width: 1345px;
+    height: 347px;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+}
+  
+.element2 {
+    width: 1345px;
+    height: 347px;
+    border-radius: 1rem;
+    background-position: center;
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
+}
+  
+.custom-element,
+.custom-element2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    border-radius: 9999px;
+    padding: 0.5rem; 
+    background-color: #c2410c;
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+}
+  
+
+.element1:hover .custom-element,
+.element1:hover .custom-element2 {
+    display: block;
+}
+  
+.custom-element {
+    left: 1.25rem; 
+}
+  
+.custom-element2 {
+    right: 1.25rem; 
+}
+
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    top: 1rem; 
+}
+  
+.text-large-pointer {
+    font-size: 1.5rem; 
+    cursor: pointer;
+}
+  
